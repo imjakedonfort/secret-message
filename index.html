@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker Quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Elementul canvas pentru efectul de matrix -->
+  <canvas class="matrix-background"></canvas>
+  
+  <div class="container">
+    <h1>Hacker Quiz</h1>
+    <div id="quiz">
+      <p>1. Who is the protagonist of the Duskwood game?</p>
+      <input type="radio" name="question0" value="B"> Thomas <br>
+      <input type="radio" name="question0" value="A"> Jake <br>
+      <input type="radio" name="question0" value="C"> Phil <br>
 
-    <div class="matrix-background"></div>
+      <p>2. How many days have passed since Hannah dissapeared?</p>
+      <input type="radio" name="question1" value="B"> a week <br>
+      <input type="radio" name="question1" value="A"> 3 days <br>
+      <input type="radio" name="question1" value="C"> 2 days <br>
 
-    <div class="container">
-        <h1>Quiz</h1>
-        <div id="quiz">
-            <p>1. Who is the protagonist of the Duskwood game?</p>
-            <input type="radio" name="question0" value="A"> A) Jake <br>
-            <input type="radio" name="question0" value="B"> B) Thomas <br>
-            <input type="radio" name="question0" value="C"> C) Phil <br>
+      <p>3. Who suffered the most?</p>
+      <input type="radio" name="question2" value="C"> Jessy <br>
+      <input type="radio" name="question2" value="B"> Thomas <br>
+      <input type="radio" name="question2" value="A"> Phil <br>
 
-            <p>2. How many days have passed since Hannah dissapeared?</p>
-            <input type="radio" name="question1" value="A"> A) a week <br>
-            <input type="radio" name="question1" value="B"> B) 2 days <br>
-            <input type="radio" name="question1" value="C"> C) 3 days <br>
-
-            <p>3. Who suffered the most?</p>
-            <input type="radio" name="question2" value="A"> A) Jessy <br>
-            <input type="radio" name="question2" value="B"> B) Phil <br>
-            <input type="radio" name="question2" value="C"> C) Thomas <br>
-
-            <button id="submit">Submit</button>
-            <p id="result"></p>
-        </div>
+      <button id="submit">Submit</button>
+      <p id="result"></p>
     </div>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
