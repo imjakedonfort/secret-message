@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("JavaScript loaded!");
 
     const quizData = [
-        { answer: "B" }, // Jake
-        { answer: "B" }, // 3 days
-        { answer: "C" }  // Jessy
+        { answer: "A" }, // Jake
+        { answer: "C" }, // 3 days
+        { answer: "A" }  // Jessy
     ];
 
     const submitButton = document.getElementById("submit");
@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (correct === quizData.length) {
             alert("Congratulations!");
-            window.location.href = "https://drive.google.com/YOUR_SECRET_LINK"; // Schimbă cu linkul real!
+            window.location.href = "https://drive.google.com/file/d/1m71cVoC-eMyDHqNbcqfXIBQeFIanYq1d/view?usp=sharing"; // Schimbă cu linkul real!
         } else {
-            resultContainer.innerHTML = "Răspunsuri greșite! Încearcă din nou.";
+            resultContainer.innerHTML = "Incorrect! Try again";
         }
     });
 
