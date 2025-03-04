@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (correct === quizData.length) {
             alert("Congratulations!");
-            window.location.href = "https://drive.google.com/file/d/1m71cVoC-eMyDHqNbcqfXIBQeFIanYq1d/view?usp=sharing"; // Schimbă cu linkul real!
+            window.location.href = "https://drive.google.com/uc?export=view&id=eMyDHqNbcqfXIBQeFIanYq1d"; // Schimbă cu linkul real!
         } else {
             resultContainer.innerHTML = "Incorrect! Try again";
         }
