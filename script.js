@@ -65,6 +65,7 @@ function loadQuiz() {
 }
 
 submitButton.addEventListener("click", function () {
+    console.log("Button clicked!"); // Testare
     let correct = 0;
     quizData.forEach((q, index) => {
         const selected = document.querySelector(input[name="question${index}"]:checked);
